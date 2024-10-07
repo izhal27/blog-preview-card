@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#F4D04E]">
+    <main class="flex items-center justify-center min-h-screen">
+      <div
+        class="group max-w-96 p-6 bg-white m-6 rounded-[20px] border border-[#111111] drop-shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:drop-shadow-[16px_16px_0px_rgba(0,0,0,1)] transition-all ease-in-out"
+      >
+        <img
+          class="rounded-[10px]"
+          src="/assets/images/illustration-article.svg"
+          alt="Illustration Article"
+        />
+        <div class="flex flex-col gap-3 mt-6">
+          <div>
+            <p class="bg-[#F4D04E] inline-block py-1 px-3 font-bold rounded">
+              Learning
+            </p>
+          </div>
+          <p class="font-medium text-xs">Published 21 Dec 2023</p>
+          <h2 class="font-extrabold text-xl group-hover:text-[#F4D04E]">
+            HTML & CSS foundations
+          </h2>
+          <p class="font-medium text-sm text-[#6B6B6B]">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation. Greg Hooper
+          </p>
+        </div>
+        <div class="flex items-center gap-3 mt-6">
+          <img
+            class="w-8"
+            src="/assets/images/image-avatar.webp"
+            alt="Image Profile"
+          />
+          <p class="font-extrabold text-sm text-[#111111]">Greg Hooper</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
